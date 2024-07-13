@@ -11,8 +11,8 @@ LABEL description="This is my first image" \
         maintainer="david samuel"
 
 # intall telnet
-RUN apt-get update -y \
-    apt-get install telnet -y \
+RUN apt-get update -y  && \
+    apt-get install telnet -y && \
     apt-getinstall apache2 -y
 
 EXPOSE 80
