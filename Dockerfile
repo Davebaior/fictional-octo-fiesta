@@ -20,7 +20,7 @@ RUN     DEBIAN_FRONTEND=noninteractive  apt-get update -y           &&  \
 EXPOSE 80
 
 # Copy file content
-COPY index.html /var/ww/html
+COPY index.html /var/www/html
 
 
 # Run command
