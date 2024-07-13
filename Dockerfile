@@ -8,7 +8,7 @@ FROM    ubuntu:20.04
 
 # Give label for your docker file 
 LABEL   description="This is my first image" \
-        maintainer="farrukh sadykov"
+        maintainer="david samuel"
 
 # install telnet     
 RUN     DEBIAN_FRONTEND=noninteractive  apt-get update -y           &&  \   
